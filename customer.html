@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aduns-Wealth</title>
+    <!-- fevicon -->
+    <link rel="shortcut icon" href="images/fevicon.png" type="image/x-icon">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+    <!-- icon css -->
+    <link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+
+    <style>
+        /*-------------------------------*/
+        /*BASIC SETUP*/
+        /*------------------------------*/
+
+        * {
+        margin: 0px;
+        padding: 0px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        }
+        html,
+        body {
+        background-color: #f5f5f5;
+        color: #555;
+        font-family: "lato", "Arial" sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+        }
+
+        /*------------HEADINGS----------------*/
+
+        h2{
+        font-weight: 300;
+        text-transform: uppercase;
+        margin-top:100px;
+        }
+
+        h2 {
+        font-size: 180%;
+        white-space: 2px;
+        text-align: center;
+        margin-bottom: 30px;
+        letter-spacing: 1px;
+        }
+
+        h2::after {
+        display: block;
+        height: 2px;
+        background-color: #fff;
+        content: " ";
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 10px;
+        }
+
+        /*------------customer care----------------*/
+       body{
+            background-image: url(images/pexels-pixabay-36753.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            background-attachment: fixed;
+            color: #fff;
+        }
+
+        .contact_details{
+            margin-top: 50px;
+            text-align: center;
+            display: block;
+        }
+
+       .contact_details li{
+            margin-top: 20px;
+        }
+
+        .ion-email,
+        .ion-location,
+        .ion-ios-telephone{
+            font-size: 350%;
+            display: block;
+            color: #fff/*#67349c*/;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .list_bg{
+            background-color: #67349c;
+            height: 200px;
+            width: 350px;
+            border-radius: 10px;
+            text-align:center;
+            display: inline-block;
+            margin-top: 70px;
+            padding-top: 10px;
+            margin: 10px;
+            box-shadow: 0px 0 5px 5px rgba(0, 0, 0, 0.6);
+        }
+
+       .email{
+            background-color: #67349c;
+            height: 200px;
+            width: 200px;
+            text-align:center;
+        }
+       .location{
+            background-color: #67349c;
+            height: 200px;
+            width: 200px;
+            text-align:center;
+        }
+
+        p{
+            text-align: center;
+            display: block;
+            font-size: 30px;
+        }
+
+        a{
+            color: #f5f5f5;
+            text-decoration: none;
+        }
+        
+        li{
+            list-style: none;
+        }
+
+        a:hover{
+            color: black;
+        }
+        
+        .social-links {
+            list-style: none;
+            margin-right: 200px;
+        }
+        
+        .social-links li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        
+        .social-links li a:link,
+        .social-links li a:visited {
+        text-decoration: none;
+        border: 0;
+        -webkit-transition: color 0.2s;
+        transition: color 0.2s;
+        }
+        
+        .ion-social-facebook,
+        .ion-social-twitter,
+        .ion-social-googleplus,
+        .ion-social-instagram {
+        -webkit-transition: color 0.2s;
+        transition: color 0.2s;
+        }
+        
+        .ion-social-facebook:hover {
+        color: #3b5998;
+        }
+        .ion-social-twitter:hover {
+        color: #00aced;
+        }
+        .ion-social-instagram:hover {
+        color: #d62976;
+        }
+
+
+        /*-----media queries------*/
+        @media only screen and (max-width: 1023px) {
+            .list_bg{
+                background-color: #67349c;
+                height: 200px;
+                width: 250px;
+                border-radius: 10px;
+                text-align:center;
+                display: inline-block;
+                margin-top: 70px;
+            }
+           p{
+            text-align: center;
+            display: block;
+            font-size: 20px;
+           }
+           .contact_details{
+            margin-bottom: 100px;
+          }
+        }
+
+    </style>
+</head>
+<body >
+    <section class="sec_aside">
+    <aside class="contact_aside"> 
+            <h2>Customer Care</h2>
+            <p>we would love to hear from you our customers.<br>follow the information below  to contact us if you any issue at all.</p>
+            <ul class="contact_details">
+            <div class="list_bg">
+            <li>
+            <h5><i class="ion-ios-telephone"></i> Director:<br><a href="tel:+07068276722">07068276722</a></h5>
+            </li>
+           <!-- <ul class="social-links">
+                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                </ul>-->
+            </div>
+
+            <div class="list_bg">
+            <li>
+            <h5><i class="ion-email"></i> Director:<br><a href="mailto:oluwakemiolufemi07@gmail.com">oluwakemiolufemi07@gmail.com</a></h5>
+            </li>
+            </div>
+
+            <div class="list_bg">
+            <li>
+            <h5><i class="ion-location"></i>No4,Elisha Akingba,<br>Baruwa Inside Lagos,Ipaja</h5>
+            </li>
+            </ul>
+            </div>
+            
+    </aside>
+</section>
+</body>
+</html>
